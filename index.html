@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Font awesome links -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+  <!-- Font awesome links -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
     integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <!-- Google Font links -->
   <link href="https://fonts.googleapis.com/css?family=Raleway%7CRighteous" rel="stylesheet">
@@ -26,7 +26,25 @@
   </h1>
 
   <div class="game-area">
-
+    <div class="controls-area">
+      <button class="btn btn--big btn--green">
+        <i class="fas fa-plus"></i></button>
+      <button class="btn btn--big btn--blue">
+        <i class="fas fa-minus"></i></button>
+      <button class="btn btn--big btn--orange">
+        <i class="fas fa-times"></i></button>
+      <button class="btn btn--big btn--red">
+        <i class="fas fa-divide"></i></button>
+    </div>
+    <div class="question-area">
+      <span id="operand1">0</span>
+      <span id="operator">x</span>
+      <span id="operand2">0</span>
+      <span>=</span>
+      <p class="answer-message">Enter answer:</p>
+      <input id="answer-box" type="number">
+      <button class="btn btn--gray">Submit Answer</button>
+    </div>
 
   </div>
 
